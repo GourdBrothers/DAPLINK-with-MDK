@@ -1,0 +1,15 @@
+﻿在 DAPLINK 目录下打开git bash窗口
+
+KEIL按默认目录安装，python用2.7.16
+
+pip install virtualenv
+
+virtualenv venv
+
+venv/Scripts/activate.bat
+
+pip install -r requirements.txt
+
+progen generate -t uvision
+
+venv/Scripts/deactivate.bat
